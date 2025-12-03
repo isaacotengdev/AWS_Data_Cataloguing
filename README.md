@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AWS Data Cataloguing
 
 ## Cataloguing Data in AWS Using Glue Crawlers: A Practical Guide for Data Engineers
@@ -195,7 +194,13 @@ Once the crawler completes:
 
 - Open Athena
 - Select your Glue database
-- Run a simple `SELECT * FROM table LIMIT 10;`
+
+![database](images/athena.png)
+
+
+- Run a simple `SELECT * FROM "AwsDataCatalog"."orders_db"."medallion_orders_2025_12_17" limit 10;` Repalce tablename with your table
+
+![results](images/results.png)
 - **(Insert screenshot of results)**
 
 
@@ -209,7 +214,7 @@ After completing the steps, you will have:
 - A metadata-driven foundation for ETL jobs
 - A structure ready for transformation into a cleaned bucket and eventually a curated analytics layer
 
-This sets the stage for your next Medium article:
+This sets the stage for my next article:
 
 **"Building ETL pipelines using Glue ETL Jobs and writing cleaned data back into S3."**
 
@@ -220,7 +225,4 @@ This sets the stage for your next Medium article:
 Data cataloguing is a foundational step in any scalable data engineering architecture. AWS Glue Crawlers make it easy to automate metadata extraction from raw data sources, reduce manual schema definition, and keep your ETL pipelines schema-aware and resilient.
 
 By the end of this project, you'll have a practical, AWS-native setup that you can build on for data cleaning, transformations, and analytical workloads.
-=======
-# AWS_Data_Cataloguing
-Cataloguing Data in AWS Using Glue Crawlers: A Practical Guide for Data Engineers
->>>>>>> 959c789b6a01d820ec02aca2e97ac986b1d92a4c
+
