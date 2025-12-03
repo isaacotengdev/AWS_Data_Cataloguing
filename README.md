@@ -201,7 +201,6 @@ Once the crawler completes:
 - Run a simple `SELECT * FROM "AwsDataCatalog"."orders_db"."medallion_orders_2025_12_17" limit 10;` Repalce tablename with your table
 
 ![results](images/results.png)
-- **(Insert screenshot of results)**
 
 
 
