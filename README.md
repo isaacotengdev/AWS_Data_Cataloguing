@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AWS Data Cataloguing
 
 ## Cataloguing Data in AWS Using Glue Crawlers: A Practical Guide for Data Engineers
@@ -219,3 +220,7 @@ This sets the stage for your next Medium article:
 Data cataloguing is a foundational step in any scalable data engineering architecture. AWS Glue Crawlers make it easy to automate metadata extraction from raw data sources, reduce manual schema definition, and keep your ETL pipelines schema-aware and resilient.
 
 By the end of this project, you'll have a practical, AWS-native setup that you can build on for data cleaning, transformations, and analytical workloads.
+=======
+# AWS_Data_Cataloguing
+Cataloguing Data in AWS Using Glue Crawlers: A Practical Guide for Data Engineers
+>>>>>>> 959c789b6a01d820ec02aca2e97ac986b1d92a4c
